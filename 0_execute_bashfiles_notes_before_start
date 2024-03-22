@@ -1,0 +1,32 @@
+#################################
+# Created : 5-3-2024
+# Code : ; Notes before starting this bash scripts course 
+
+#################################
+
+1)- How to execute the bash files ?
+
+- You can use the command bash for any bash file with any permission even if it is not executable such as 
+$ bash 1_Hello_world.sh
+- You can execute the file directly by relative path but it should be executable file to do so 
+$ ./1_Hello_world.sh
+
+
+2) the heading of each file in this tutorials: 
+
+You need to specify the path to the Bash or other programming 
+language executable that you intend to use for writing your script.
+
+Previously were 
+#!/bin/bash
+
+But now
+#!/opt/homebrew/Cellar/bash/5.2.26/bin/bash
+
+# Why I changed the bash ? 
+The default version of Bash on iMac is 3.2, which may have limitations and 
+compatibility issues with certain functions. To overcome this, users can 
+install a newer version using Homebrew, which resolves many of these issues. 
+It's worth noting that Apple's focus has shifted towards Zsh, a licensed shell,
+ which receives updates, unlike Bash, which remains at the older version due 
+ to licensing constraints.
